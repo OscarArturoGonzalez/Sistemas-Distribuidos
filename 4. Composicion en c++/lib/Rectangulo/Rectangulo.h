@@ -9,7 +9,7 @@ class Rectangulo {
     Coordenada inferiorDer;
   public:
     Rectangulo();
-    Rectangulo(double xSupIzq, double ySupIzq, double xInfDer, double yInfDer);
+    Rectangulo(Coordenada supIzq, Coordenada infDer);
     void imprimeEsq();
     Coordenada obtieneSupIzq();
     Coordenada obtieneInfDer();
