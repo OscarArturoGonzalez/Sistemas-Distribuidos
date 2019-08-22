@@ -11,6 +11,8 @@
 ## Lista de grupo de ejercicios
 - Principios de C
 - Clases en C++ (19 Agosto)
+- Constructores y parametros (21 Agosto)
+- Composicion en C++ (22 Agosto)
 
 
 #### Links utiles
