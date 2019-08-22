@@ -14,7 +14,7 @@ Rectangulo::Rectangulo(Coordenada supIzq, Coordenada infDer){
   inferiorDer = infDer;
 }
 
-int Rectangulo::obtieneArea(){
+double Rectangulo::obtieneArea(){
   return (superiorIzq.obtenerY() - inferiorDer.obtenerY()) * (inferiorDer.obtenerX() - superiorIzq.obtenerX());
 }
 

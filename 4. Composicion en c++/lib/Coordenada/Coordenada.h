@@ -3,8 +3,8 @@
 
 class Coordenada{
   private:
-    double x;
-    double y;
+    double r;
+    double angulo;
   public:
     Coordenada(double = 0, double = 0);
     double obtenerX();

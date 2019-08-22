@@ -13,7 +13,7 @@ class Rectangulo {
     void imprimeEsq();
     Coordenada obtieneSupIzq();
     Coordenada obtieneInfDer();
-    int obtieneArea();
+    double obtieneArea();
 };
 
 #endif

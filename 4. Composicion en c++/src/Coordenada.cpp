@@ -3,14 +3,14 @@
 #include <stdlib.h>
 #include <math.h>
 
-Coordenada::Coordenada(double xx, double yy) : x(xx), y(yy) { 
+Coordenada::Coordenada(double rr, double aa) : r(rr), angulo(aa) { 
 
 }
 
 double Coordenada::obtenerX() {
-  return x;
+  return r* cos(angulo);
 }
 
 double Coordenada::obtenerY() {
-  return y;
+  return r* sin(angulo);
 }
