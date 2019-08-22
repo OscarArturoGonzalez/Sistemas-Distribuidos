@@ -14,6 +14,10 @@ Rectangulo::Rectangulo(Coordenada supIzq, Coordenada infDer){
   inferiorDer = infDer;
 }
 
+int Rectangulo::obtieneArea(){
+  return (superiorIzq.obtenerY() - inferiorDer.obtenerY()) * (inferiorDer.obtenerX() - superiorIzq.obtenerX());
+}
+
 void Rectangulo::imprimeEsq() {
   cout << "Para la esquina superior izquierda.\n";
   cout << "x = " << superiorIzq.obtenerX() << " y = " << superiorIzq.obtenerY() << endl;

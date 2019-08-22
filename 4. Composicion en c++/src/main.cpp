@@ -12,11 +12,7 @@ int main( ) {
 
   cout << "Calculando el área de un rectángulo dadas sus coordenadas en un plano cartesiano:\n";
   rectangulo1.imprimeEsq();
-
-  alto = rectangulo1.obtieneSupIzq().obtenerY() -
-  rectangulo1.obtieneInfDer().obtenerY();
-  ancho = rectangulo1.obtieneInfDer().obtenerX() -
-  rectangulo1.obtieneSupIzq().obtenerX();
-  cout << "El área del rectángulo es = " << ancho*alto << endl;
+  int area = rectangulo1.obtieneArea();
+  cout << "El área del rectángulo es = " << area << endl;
   return 0;
 } 
