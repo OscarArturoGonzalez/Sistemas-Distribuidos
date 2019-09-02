@@ -1,7 +1,10 @@
 {
   "files.associations": {
     "*.tpp": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "istream": "cpp",
+    "iostream": "cpp",
+    "ostream": "cpp"
   },
   "terminal.integrated.shell.windows": "cmd.exe"
 }
