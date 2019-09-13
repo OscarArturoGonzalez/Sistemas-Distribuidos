@@ -4,7 +4,8 @@
     "vector": "cpp",
     "istream": "cpp",
     "iostream": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "algorithm": "cpp"
   },
   "terminal.integrated.shell.windows": "cmd.exe"
 }

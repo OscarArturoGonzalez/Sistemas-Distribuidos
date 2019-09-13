@@ -3,11 +3,11 @@
 
 class Coordenada{
   private:
-    double x;
-    double y;
-    double z;
+    int x;
+    int y;
+    int z;
   public:
-    Coordenada(double = 0, double = 0, double = 0);
+    Coordenada(int = 0, int = 0, int = 0);
     double obtenerX();
     double obtenerY();
     double obtenerZ();

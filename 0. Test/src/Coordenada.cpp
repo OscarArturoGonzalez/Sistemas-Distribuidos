@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-Coordenada::Coordenada(double xx, double yy, double zz) : x(xx), y(yy), z(zz) { 
+Coordenada::Coordenada(int xx, int yy, int zz) : x(xx), y(yy), z(zz) { 
 
 }
 
