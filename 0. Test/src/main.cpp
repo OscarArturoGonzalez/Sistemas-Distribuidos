@@ -1,6 +1,6 @@
 #include <iostream>
 #include "../lib/Temperatura/Temperatura.h"
-
+#include "../lib/Fraccion/Fraccion.h"
 using namespace std;
 
 void header(int exercise_number) {
@@ -34,18 +34,37 @@ void getTime(int seconds) {
   cout << "Horas " << hours << " Minutos " << minutes << " Segundos " << seconds << endl; 
 }
 
-int main(){
+void testTemperatura() {
+  Temperatura t(0);
 
-  int n = 81; 
-  Temperatura t(200);
+  t.setTempKelvin(200);
   t.getKelvin();
   t.getCelsius();
   t.getFahrenheit();
 
-  
-  // 1 cout << "Square root of " << n << " is " << squareRoot(n) << endl; 
+  t.setTempCelsius(200);
+  t.getKelvin();
+  t.getCelsius();
+  t.getFahrenheit();
+
+  t.setTempFahrenheit(200);
+  t.getKelvin();
+  t.getCelsius();
+  t.getFahrenheit();
+}
+
+int main(){ 
+
+  // 1 cout << "Square root of " << n << " is " << squareRoot(81) << endl; 
   // 2 getHeight(9.8);
   // 3 getTime(50381);
+  // 4 testTemperatura();
 
+  Fraccion f(18, 15);
+
+  f.getDecimal();
+  f.reduceFraction();
+
+  
 	return 0;
 }
